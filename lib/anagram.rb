@@ -9,6 +9,6 @@ class Angram
   
   def match(array_words)
     array_words.select do |x|
-      (@word.split(""))
+      (@word.split("").sort)
   
 end
