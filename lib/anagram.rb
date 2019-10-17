@@ -3,6 +3,13 @@ class Angram
   
   attr_accessor :diaper, :ba, :listen, :allergy
   
+  @@all = []
   
+  def initialize
+    @@all << self
+  end
+  
+  def anagram
+    @@all.split(",").match
   
 end
