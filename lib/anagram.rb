@@ -7,7 +7,7 @@ class Angram
     @word = word
   end
   
-  def match()
-    @@all.split(",").match 
+  def match(array_words)
+    array_words.split(",").match 
   
 end
