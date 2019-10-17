@@ -1,5 +1,5 @@
 # Your code goes here!
-class Angram
+class Anagram
   
   attr_accessor :word
   
