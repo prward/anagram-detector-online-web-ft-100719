@@ -1,4 +1,4 @@
 # Your code goes here!
 class Angram
   
-  attr_accessor 
+  attr_accessor :diaper, :ba, :listen
