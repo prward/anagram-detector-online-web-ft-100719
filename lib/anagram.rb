@@ -8,8 +8,8 @@ class Angram
   end
   
   def match(array_words)
-    array_words.select do |x|
-      (@word.split("").sort) == (element.split("").sort)
+    if word.split("").sort == self.word_to_analyze.split("").sort 
+        word 
   end
 end
 end
