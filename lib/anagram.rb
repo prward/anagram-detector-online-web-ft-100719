@@ -8,7 +8,7 @@ class Angram
   end
   
   def match(array_words)
-    if word.split("").sort == self.word_to_analyze.split("").sort 
+    if word.split("").sort == self.array_words.split("").sort 
         word 
   end
 end
