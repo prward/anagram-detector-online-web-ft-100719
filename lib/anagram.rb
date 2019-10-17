@@ -10,6 +10,6 @@ class Angram
   end
   
   def anagram
-    @@all.split(",").match
+    @@all.split(",").match 
   
 end
