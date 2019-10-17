@@ -10,5 +10,5 @@ class Angram
   def match(array_words)
     array_words.select do |x|
       (@word.split("").sort) == (element.split("").sort)
-  
+  end
 end
