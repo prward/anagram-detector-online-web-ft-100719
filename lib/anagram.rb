@@ -7,7 +7,7 @@ class Angram
     @word = word
   end
   
-  def anagram
+  def match()
     @@all.split(",").match 
   
 end
