@@ -8,6 +8,6 @@ class Angram
   end
   
   def match(array_words)
-    array_words.split(",").match 
+    array_words.select(",").match 
   
 end
