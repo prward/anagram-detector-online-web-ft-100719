@@ -8,6 +8,7 @@ class Angram
   end
   
   def match(array_words)
-    array_words.select do |
+    array_words.select do |x|
+      
   
 end
