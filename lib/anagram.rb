@@ -3,10 +3,8 @@ class Angram
   
   attr_accessor :word
   
-  @@all = []
-  
-  def initialize
-    @@all << self
+  def initialize(word)
+    @word = word
   end
   
   def anagram
